@@ -665,4 +665,7 @@
     border: 3px solid ;
 }
 
-  
+  .news-read:hover{
+    color: rgb(197, 149, 16);
+    background-color: white;
+  }
