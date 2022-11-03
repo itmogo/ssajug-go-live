@@ -683,3 +683,15 @@
     height: 290px;
   }
   
+  .intro-stroke{
+    width: 48px;
+    height: 4px;
+    background-color: rgb(197, 149, 16);  
+    margin: 0 auto;   
+    position: relative;
+   
+    
+    
+   
+  }
+  
