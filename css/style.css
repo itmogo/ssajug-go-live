@@ -688,10 +688,19 @@
     height: 4px;
     background-color: rgb(197, 149, 16);  
     margin: 0 auto;   
-    position: relative;
+    position: relative;   
    
+  } 
+
+ img {
+    mix-blend-mode: multiply;   
+ }
+
+
+ .bgColor{
+    background-color: #3240c3;
+ }
+
+ 
     
-    
-   
-  }
-  
+ 
