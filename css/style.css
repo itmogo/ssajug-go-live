@@ -176,6 +176,13 @@
         transition: .5s;
     }
 
+    /* reduced the display of h6*/
+    @media (min-width: 478px) {
+        h6 {
+           width: 50%;
+        }
+    }
+
     .navbar .nav-item:hover .dropdown-menu {
         top: 100%;
         visibility: visible;
