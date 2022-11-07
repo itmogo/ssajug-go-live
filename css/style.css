@@ -178,8 +178,12 @@
 
     /* reduced the display of h6*/
     @media (min-width: 478px) {
+
+        a h6{
+            width: min-content;
+        }
         h6 {
-           width: 30%;
+           width: min-content;
         }
     }
 
