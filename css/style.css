@@ -176,16 +176,7 @@
         transition: .5s;
     }
 
-    /* reduced the display of h6*/
-    @media (min-width: 478px) {
-
-        a h6{
-            width: min-content;
-        }
-        h6 {
-           width: min-content;
-        }
-    }
+   
 
     .navbar .nav-item:hover .dropdown-menu {
         top: 100%;
@@ -703,14 +694,43 @@
    
   } 
 
- img {
-    mix-blend-mode: multiply;   
- }
+ 
 /* navbar css bg-dark color*/
  .bgColor{
     background-color: #3240c3;
  }
 
+  /* reduced the display of h6*/
+  @media (max-width: 478px) {
+
+    a > h6{
+        width: min-content;
+        padding: 10px;       
+    }
+
+    h6 {
+       width: min-content;
+    }
+}
+
  
+
+  .img-wrap {
     
+    
+    /* background:transparent; */
+    opacity: 1;
+    outline-color: transparent;
+    outline-style: none;
+    z-index: 10;
+ } 
+
+    .img-wrap > img { 
+        mix-blend-mode: multiply;
+       
+       
+        
+      
+    }  
+     
  
