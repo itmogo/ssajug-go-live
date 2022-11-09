@@ -701,7 +701,7 @@
  }
 
   /* reduced the display of h6*/
-  @media (max-width: 478px) {
+  /* @media (max-width: 478px) {
 
     a > h6{
         width: min-content;
@@ -711,7 +711,7 @@
     h6 {
        width: min-content;
     }
-}
+} */
 
  
 
