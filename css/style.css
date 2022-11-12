@@ -2,8 +2,8 @@
 :root {
     --primary: #3240c3;
     --light: #F6F7F8;
-    --dark: #1A2A36;
-    --primary-new: rgb(197, 149, 16)
+    --dark: #1A2A36;    
+    --primary-new: rgb(197, 149, 16);
     
     
 }
@@ -68,7 +68,9 @@
 .btn.btn-outline-primary:hover {
     
     color: #FFFFFF;
+    /* color: rgb(197, 149, 16); */
     background-color: var(--primary);
+
 }
 
 .btn-square {
@@ -96,17 +98,18 @@
     font-weight: normal;
 }
 
-/*** Navbar ***/
+/*** Navbar ***/ 
+marquee,
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
-    background-color: rgb(197, 149, 16);
+    /* background-color: rgb(197, 149, 16); */
 }
 
 
 .bmain {
     text-align: center;
-    border: 1px solid rgb(197, 149, 16);
+    border: 2px solid rgb(197, 149, 16);
     position: sticky;
     z-index: 10;
     top: 100px;
@@ -120,8 +123,8 @@
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: rgb(197, 149, 16);
-    /* color: var(--dark); */
+    /* color: rgb(197, 149, 16); */
+    color: white;
     font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;
@@ -141,7 +144,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--primary-new);
 }
 
 .navbar .dropdown-toggle::after {
@@ -151,7 +154,7 @@
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
-    color: var(--primary);
+    color: var(--primary-new);
 }
 
 @media (max-width: 991.98px) {
@@ -275,7 +278,7 @@
 .page-header1 {
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/inaug_susag3.jpg) center center no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 70vh;
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
@@ -588,7 +591,8 @@
 /*** Footer ***/
 .footer .btn.btn-social {
     margin-right: 5px;
-    color: #9B9B9B;
+    /* color: #9B9B9B; */
+    color: white;
     border: 1px solid #9B9B9B;
     border-radius: 38px;
     transition: .3s;
@@ -605,7 +609,8 @@
     margin-bottom: 5px;
     padding: 0;
     text-align: left;    
-    color: #9B9B9B;
+    /* color: #9B9B9B; */
+    color: white;
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
@@ -620,7 +625,7 @@
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--primary);
+    color: var(--primary-new);
     letter-spacing: 1px;
     box-shadow: none;
 }
@@ -632,6 +637,7 @@
 
 .footer .copyright a {
     color: var(--light);
+    /* color: white; */
 }
 
 .footer .copyright a:hover {
@@ -690,7 +696,7 @@
     height: 4px;
     background-color: rgb(197, 149, 16);  
     margin: 0 auto;   
-    position: relative;   
+    position: relative;  
    
   } 
 
@@ -712,11 +718,9 @@
        width: min-content;
     }
 } */
-
  
 
-  .img-wrap {
-    
+  .img-wrap {    
     
     /* background:transparent; */
     opacity: 1;
@@ -726,11 +730,18 @@
  } 
 
     .img-wrap > img { 
-        mix-blend-mode: multiply;
-       
-       
-        
-      
-    }  
+        mix-blend-mode: multiply;       
+        }  
+
+    .navbarbg{
+        background-color: #0504aa;
+    }
      
- 
+    .contbg{
+        background-color: var(--primary-new);
+    }
+
+   .ptext{
+    color: white;
+
+   }
